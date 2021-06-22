@@ -23,7 +23,6 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    flex: 1;
 }
 
 .logo-name h1 {
@@ -57,7 +56,6 @@ nav a:hover {
         flex-flow: row wrap;
         justify-content: space-between;
         align-items: center;
-        flex: 1;
     }
     .logo-name h1 {
         font-size: 1.7em;
@@ -73,7 +71,6 @@ nav a:hover {
         flex-flow: row wrap;
         justify-content: space-between;
         align-items: center;
-        flex: 1;
     }
     .logo-name h1 {
         font-size: 1.5em;
@@ -89,7 +86,6 @@ nav a:hover {
         flex-flow: row wrap;
         justify-content: space-between;
         align-items: center;
-        flex: 1;
     }
     .logo-name h1 {
         font-size: 1.5em;
@@ -105,7 +101,6 @@ nav a:hover {
         flex-flow: row wrap;
         justify-content: space-between;
         align-items: center;
-        flex: 1;
     }
     .logo-name h1 {
         font-size: 1.5em;
@@ -121,7 +116,6 @@ nav a:hover {
         flex-flow: row wrap;
         justify-content: space-between;
         align-items: center;
-        flex: 1;
     }
     .logo-name {
         padding: 0 0 0 10px;
@@ -563,6 +557,21 @@ nav a:hover {
     }
 }
 
+@media screen and (min-width: 541px) and (max-width: 600px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+    .logo-name {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+    }
+    nav {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 @media screen and (max-width: 540px) {
     .about-content {
         max-width: 450px;
@@ -589,11 +598,25 @@ nav a:hover {
     .about-left-float-right {
         margin-left: 0px;
     }
+    .logo-name {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+    }
+    nav {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media screen and (max-width: 360px) {
     .about-content {
         max-width: 320px;
+    }
+    .logo-name {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
     }
 }
 
@@ -607,17 +630,32 @@ nav a:hover {
     .about-content {
         max-width: 400px;
     }
+    .logo-name {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (min-width: 410px) and (max-width: 414px) {
     .about-content {
         max-width: 380px;
     }
+    .logo-name {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (min-width: 375px) and (max-width: 375px) {
     .about-content {
         max-width: 340px;
+    }
+    .logo-name {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
     }
 }
 
