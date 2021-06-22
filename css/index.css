@@ -1404,22 +1404,24 @@ nav a:hover {
     }
 }
 
-
-}
 .fas {
     color: #0078ff;
     margin-right: 10px;
 }
+
 .social-media {
     padding: 1.5rem 0;
 }
+
 .social-media ul {
     list-style: none;
     padding-left: 0;
 }
+
 .social-media ul li {
     display: inline-block;
 }
+
 .social-circle {
     height: 40px;
     width: 40px;
@@ -1431,16 +1433,20 @@ nav a:hover {
     text-align: center;
     display: block;
 }
+
 .social-media>ul>li>a {
     text-decoration: none;
     color: #1e1e1e;
 }
+
 .fab {
     font-size: 1.7rem;
 }
+
 .service-circle {
     margin-bottom: 1rem;
 }
+
 .service-circle-con {
     font-size: 4rem;
     height: 100px;
@@ -1452,6 +1458,7 @@ nav a:hover {
     box-shadow: 0 0 0 10px #0078ff;
     display: block;
 }
+
 .service-circle-con i {
     color: #1e1e1e;
     margin: auto;
