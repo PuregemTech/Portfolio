@@ -225,6 +225,21 @@ nav a:hover {
     .inner-banner p {
         font-size: 0.7rem !important;
     }
+    nav {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    nav>a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    nav a:hover {
+        background: #fff;
+        color: #000;
+        border-radius: 0 !important;
+    }
 }
 
 .banner {
